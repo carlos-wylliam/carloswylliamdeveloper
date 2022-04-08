@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="icon" href="./imagens/favicon-32x32.png" type="icon.png">
+    <title>Frontend Mentor | NFT preview card component main</title>
+    <script>
+        function onOver(elemento) {
+            elemento.style.color = "hsl(178, 100%, 50%)"
+        }
+        function onOut(elemento) {
+            elemento.style.color = "white"
+        }
+    </script>
+</head>
+
+<body>
+    <div class="NFTbox">
+
+        <img class="equi" style="width: 300px;" src="./imagens/image-equilibrium.jpg">
+        <div class="details">
+            <h2 onmouseover="onOver(this)" onmouseout="onOut(this)">Equilibrium #3429</h2>
+            <h3 style="color:hsl(215, 51%, 70%); font-size: 1.17em;">Our Equilibrium collection promotes balance and
+                calm.
+            </h3>
+
+
+            <table style="margin-bottom: 30px;">
+                <tbody>
+                    <tr>
+                        <td>
+                            <img style="margin-left:0px;margin-top: 0px;" src="./imagens/icon-ethereum.svg"
+                                alt="ethereum icon">
+                        </td>
+                        <td>
+                            <p style="margin-top: 16px;" id="ethprice">0.041 ETH</p>
+                        </td>
+                        <td id="clock">
+                            <img style="margin-left:0px;margin-top: 0px;" src="./imagens/icon-clock.svg"
+                                alt="clock icon">
+                        </td>
+                        <td>
+                            <p style="margin-top: 16px;" id="clocktime">3 days left</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="line"></div>
+
+        <div class="creator">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img style="width: 30px; padding: 1px;" src="./imagens/image-avatar.png" alt="icon">
+                        </td>
+                        <td>
+                            <p style="margin-top:35px; font-size: 15px;"><strong>Creation of Carlos Wylliam</strong></p>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="description">
+            <p>Challenge by <a href="#">Frontend Mentor.</a> Coded by <a href="#">jason lee.</a></p>
+            <div>
+
+            </div>
+
+</body>
+
+</html>

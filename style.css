@@ -1,0 +1,87 @@
+body{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    background-color: rgb(13, 25, 43);
+}
+
+.NFTbox{
+    width: 350px;
+    height: 630px;
+    background-color: rgb(20, 37, 61);
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 65px;
+}
+
+img{
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+   
+.details{
+    margin-left: 25px;
+}
+
+.details h2{
+    font-weight: 400;
+}
+
+.details h3{
+    font-weight: 300;
+    
+}
+
+#ethprice{
+    margin-top: 35px;
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+}
+
+#clocktime{
+    margin-top: 35px;
+    color: hsl(215, 51%, 70%);
+    
+}
+#clock{
+    padding-left: 110px;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+.line{
+    background: hsl(215, 32%, 27%);
+    width: 300px;
+    height: 1px;
+    margin: auto;
+}
+div {
+    display: block;
+}
+
+.creator p{
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.description{
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+a{
+    color: hsl(228, 45%, 44%);
+}
+
+.equi{
+    -webkit-filter:grayscale(0%);
+}
+.equi:hover{
+    -webkit-filter:grayscale(100%);
+    transition: 1s;
+}
+
